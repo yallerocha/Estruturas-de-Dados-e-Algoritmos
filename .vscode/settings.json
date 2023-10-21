@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "src/test/binarySearchTree",
+        "src/test/avltree",
+        "src/main",
+        "src"
+    ]
+}
