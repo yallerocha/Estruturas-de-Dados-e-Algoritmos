@@ -1,15 +1,18 @@
 # Estrutura de Dados e Algoritmos de Ordenação 📚
 
-Este repositório contém implementações de estruturas de dados e algoritmos de ordenação em Java, juntamente com testes unitários usando o framework JUnit. O objetivo é fornecer exemplos de estruturas de dados e algoritmos comuns, além de demonstrar como usá-los em seus próprios projetos.
+Este repositório tem como objetivo oferecer implementações de estruturas de dados e algoritmos de ordenação em Java. Além disso, inclui testes unitários usando o framework JUnit. O objetivo principal é fornecer exemplos práticos e eficientes de estruturas de dados comuns e algoritmos de ordenação.
+
+Aqui, você encontrará soluções robustas e prontas para uso que podem ser facilmente incorporadas aos seus próprios projetos. 🚀
 
 ## Estruturas de Dados Incluídas 📋
 
 - Lista Encadeada (LinkedList)
 - Pilha (Stack)
 - Fila (Queue)
-- Árvore Binária de Pesquisa (Binary Search Tree)
+- Árvore Binária de Busca (Binary Search Tree)
+- Árvore AVL (AVL Tree)
 - Tabela de Hash (Hash Table)
-- E outros mais! 🚀
+- E mais! 🚀
 
 ## Algoritmos de Ordenação Incluídos 🔄
 
@@ -18,7 +21,8 @@ Este repositório contém implementações de estruturas de dados e algoritmos d
 - Insertion Sort
 - Merge Sort
 - Quick Sort
-- E outros mais! 🚀
+- Counting Sort
+- E mais! 🚀
 
 ## Requisitos 🛠️
 
