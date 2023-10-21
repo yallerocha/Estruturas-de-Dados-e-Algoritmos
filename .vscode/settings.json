@@ -4,5 +4,6 @@
         "src/test/avltree",
         "src/main",
         "src"
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
