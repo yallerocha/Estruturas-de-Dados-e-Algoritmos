@@ -2,7 +2,7 @@ package com.avltree.avltree;
 
 import com.avltree.bst.BSTImpl;
 import com.avltree.bst.BSTNode;
-import com.avltree.bt.Util;
+import com.avltree.bt.UtilRotation;
 
 /**
  * 
@@ -45,15 +45,15 @@ public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements 
 		if (Math.abs(balance) > 1) {
 			if (balance > 1) {
 				if (this.calculateBalance((BSTNode<T>) node.getLeft()) >= 0) {
-					newRoot = Util.rightRotation(node);
+					newRoot = UtilRotation.rightRotation(node);
 				} else {
-					newRoot = Util.doubleRightRotation(node);
+					newRoot = UtilRotation.doubleRightRotation(node);
 				}
 			} else {
 				if (this.calculateBalance((BSTNode<T>) node.getRight()) <= 0) {
-					newRoot = Util.leftRotation(node);
+					newRoot = UtilRotation.leftRotation(node);
 				} else {
-					newRoot = Util.doubleLeftRotation(node);
+					newRoot = UtilRotation.doubleLeftRotation(node);
 				}
 			}
 		}

@@ -1,7 +1,7 @@
 package com.avltree.avltree;
 
 import com.avltree.bst.BSTNode;
-import com.avltree.bt.Util;
+import com.avltree.bt.UtilRotation;
 
 import java.util.*;
 
@@ -47,18 +47,18 @@ public class AVLCountAndFillImpl<T extends Comparable<T>> extends AVLTreeImpl<T>
 		if (Math.abs(balance) > 1) {
 			if (balance > 1) {
 				if (this.calculateBalance((BSTNode<T>) node.getLeft()) >= 0) {
-					newRoot = Util.rightRotation(node);
+					newRoot = UtilRotation.rightRotation(node);
 					this.LLcounter++;
 				} else {
-					newRoot = Util.doubleRightRotation(node);
+					newRoot = UtilRotation.doubleRightRotation(node);
 					this.LRcounter++;
 				}
 			} else {
 				if (this.calculateBalance((BSTNode<T>) node.getRight()) <= 0) {
-					newRoot = Util.leftRotation(node);
+					newRoot = UtilRotation.leftRotation(node);
 					this.RRcounter++;
 				} else {
-					newRoot = Util.doubleLeftRotation(node);
+					newRoot = UtilRotation.doubleLeftRotation(node);
 					this.RLcounter++;
 				}
 			}

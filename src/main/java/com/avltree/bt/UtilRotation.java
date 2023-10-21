@@ -2,7 +2,7 @@ package com.avltree.bt;
 
 import com.avltree.bst.BSTNode;
 
-public class Util {
+public class UtilRotation {
 
 	/**
 	 * A rotacao a esquerda em node deve subir e retornar seu filho a direita
