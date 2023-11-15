@@ -4,37 +4,37 @@ Bem-vindo ao repositório de Estrutura de Dados e Algoritmos em Java! Este proje
 
 ## Estruturas de Dados Incluídas 📋
 
-- Árvore AVL (AVL Tree): Uma árvore balanceada que garante operações eficientes de busca, inserção e remoção em tempo logarítmico.
+- **Árvore AVL (AVL Tree):** Uma árvore balanceada que garante operações eficientes de busca, inserção e remoção em tempo logarítmico.
   
-- Árvore Binária de Busca (Binary Search Tree): Uma árvore binária que permite rápida busca, inserção e remoção de elementos.
+- **Árvore Binária de Busca (Binary Search Tree):** Uma árvore binária que permite rápida busca, inserção e remoção de elementos.
 
-- Tabela de Hash (Hash Table): Uma estrutura eficiente para mapear chaves a valores, proporcionando acesso rápido.
+- **Tabela de Hash (Hash Table):** Uma estrutura eficiente para mapear chaves a valores, proporcionando acesso rápido.
 
-- Heap Binário (Binary Heap): Uma implementação eficiente da fila de prioridade com propriedades interessantes.
+- **Heap Binário (Binary Heap):** Uma implementação eficiente da fila de prioridade com propriedades interessantes.
 
-- Lista Encadeada (LinkedList): Uma lista flexível que permite fácil inserção e remoção de elementos.
+- **Lista Encadeada (LinkedList):** Uma lista flexível que permite fácil inserção e remoção de elementos.
 
-- Fila (Queue): Uma fila de elementos com operações de enfileirar e desenfileirar.
+- **Fila (Queue):** Uma fila de elementos com operações de enfileirar e desenfileirar.
 
-- Pilha (Stack): Uma pilha de elementos com operações de empilhar e desempilhar.
+- **Pilha (Stack):** Uma pilha de elementos com operações de empilhar e desempilhar.
 
 ## Algoritmos de Ordenação Incluídos 🔄
 
-- Bubble Sort: Um algoritmo simples, mas menos eficiente para ordenação.
+- **Bubble Sort:** Um algoritmo simples, mas menos eficiente para ordenação.
 
-- Counting Sort: Ideal para ordenar inteiros em um intervalo específico.
+- **Counting Sort:** Ideal para ordenar inteiros em um intervalo específico.
 
-- Insertion Sort: Eficiente para pequenas quantidades de dados ou em conjuntos quase ordenados.
+- **Insertion Sort:** Eficiente para pequenas quantidades de dados ou em conjuntos quase ordenados.
 
-- Merge Sort: Um algoritmo de ordenação eficiente baseado na técnica de divisão e conquista.
+- **Merge Sort:** Um algoritmo de ordenação eficiente baseado na técnica de divisão e conquista.
 
-- Order Statistic: Encontre a estatística de ordem k em um conjunto de dados.
+- **Order Statistic:** Encontre a estatística de ordem k em um conjunto de dados.
 
-- Quick Select: Selecione o k-ésimo menor elemento em tempo linear.
+- **Quick Select:** Selecione o k-ésimo menor elemento em tempo linear.
 
-- Quick Sort: Um algoritmo de ordenação rápido baseado na técnica de pivô.
+- **Quick Sort:** Um algoritmo de ordenação rápido baseado na técnica de pivô.
 
-- Selection Sort: Simples e intuitivo, adequado para conjuntos de dados pequenos.
+- **Selection Sort:** Simples e intuitivo, adequado para conjuntos de dados pequenos.
 
 ## Como Contribuir 🤝
 
