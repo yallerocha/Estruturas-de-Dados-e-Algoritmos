@@ -1,6 +1,6 @@
 # Estrutura de Dados e Algoritmos em Java 📚
 
-Este projeto tem um objetivo educacional, proporcionando recursos práticos para aqueles que estão estudando Estruturas de Dados e Algoritmos em Java. Esperamos que essas implementações ajudem no aprendizado e na compreensão dos conceitos fundamentais.
+Bem-vindo ao repositório de Estrutura de Dados e Algoritmos em Java! Este projeto tem um objetivo educacional, proporcionando recursos práticos para aqueles que estão estudando Estruturas de Dados e Algoritmos de Ordenação. Esperamos que essas implementações ajudem no aprendizado e na compreensão dos conceitos fundamentais.
 
 ## Estruturas de Dados Incluídas 📋
 
