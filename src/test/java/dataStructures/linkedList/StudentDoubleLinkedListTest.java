@@ -4,8 +4,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.dataStructures.linkedList.linkedList.DoubleLinkedList;
-import com.dataStructures.linkedList.linkedList.RecursiveDoubleLinkedListImpl;
+import com.dataStructures.linkedList.doubleLinkedList.DoubleLinkedList;
+import com.dataStructures.linkedList.doubleLinkedList.RecursiveDoubleLinkedListImpl;
 
 public class StudentDoubleLinkedListTest extends StudentLinkedListTest {
 

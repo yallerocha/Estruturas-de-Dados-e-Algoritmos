@@ -11,9 +11,9 @@ import java.util.Comparator;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.dataStructures.heap.heap.ComparatorMaxHeap;
-import com.dataStructures.heap.heap.Heap;
-import com.dataStructures.heap.heap.HeapImpl;
+import com.dataStructures.heap.Heap;
+import com.dataStructures.heap.HeapImpl;
+import com.dataStructures.heap.comparators.ComparatorMaxHeap;
 
 public class StudentMaxHeapTest {
 
@@ -35,7 +35,7 @@ public class StudentMaxHeapTest {
 		assertEquals(8, heap.size());
 		assertFalse(heap.isEmpty());
 
-		//verifyHeap(new Integer[] { 99, 12, 82, 6, 34, 64, 58, 1 });
+		verifyHeap(new Integer[] { 99, 12, 82, 6, 34, 64, 58, 1 });
 		verifyHeap(new Integer[] { 99, 34, 82, 6, 12, 64, 58, 1 });
 	}
 

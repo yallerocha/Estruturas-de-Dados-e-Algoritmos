@@ -5,11 +5,11 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.dataStructures.binarySearchTree.bst.SimpleBSTManipulation;
-import com.dataStructures.binarySearchTree.bst.SimpleBSTManipulationImpl;
-import com.dataStructures.binarySearchTree.bst.extended.FloorCeilBST;
-import com.dataStructures.binarySearchTree.bst.extended.FloorCeilBSTImpl;
-import com.dataStructures.binarySearchTree.bt.BTNode;
+import com.dataStructures.binarySearchTree.binaryTree.BTNode;
+import com.dataStructures.binarySearchTree.manipulation.SimpleBSTManipulation;
+import com.dataStructures.binarySearchTree.manipulation.SimpleBSTManipulationImpl;
+import com.dataStructures.binarySearchTree.orderStatistic.floorCeil.FloorCeilBST;
+import com.dataStructures.binarySearchTree.orderStatistic.floorCeil.FloorCeilBSTImpl;
 
 public class StudentBSTTest{
 

@@ -4,8 +4,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.dataStructures.linkedList.linkedList.LinkedList;
-import com.dataStructures.linkedList.linkedList.RecursiveSingleLinkedListImpl;
+import com.dataStructures.linkedList.singleLinkedList.LinkedList;
+import com.dataStructures.linkedList.singleLinkedList.RecursiveSingleLinkedListImpl;
 
 public class StudentLinkedListTest {
 

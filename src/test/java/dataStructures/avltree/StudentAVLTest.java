@@ -3,9 +3,9 @@ package dataStructures.avltree;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-import com.dataStructures.avltree.avltree.AVLTree;
-import com.dataStructures.avltree.avltree.AVLTreeImpl;
-import com.dataStructures.avltree.bst.BSTNode;
+import com.dataStructures.avltree.AVLTree;
+import com.dataStructures.avltree.AVLTreeImpl;
+import com.dataStructures.binarySearchTree.BSTNode;
 
 import org.junit.Before;
 

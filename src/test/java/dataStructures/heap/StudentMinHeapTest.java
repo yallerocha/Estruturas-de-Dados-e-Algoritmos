@@ -11,9 +11,9 @@ import java.util.Comparator;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.dataStructures.heap.heap.ComparatorMinHeap;
-import com.dataStructures.heap.heap.Heap;
-import com.dataStructures.heap.heap.HeapImpl;
+import com.dataStructures.heap.Heap;
+import com.dataStructures.heap.HeapImpl;
+import com.dataStructures.heap.comparators.ComparatorMinHeap;
 
 public class StudentMinHeapTest {
 
@@ -34,7 +34,7 @@ public class StudentMinHeapTest {
 
 		assertEquals(8, heap.size());
 		assertFalse(heap.isEmpty());
-		//verifyHeap(new Integer[] { 1, 6, 58, 12, 34, 64, 99, 82 });
+		verifyHeap(new Integer[] { 1, 6, 58, 12, 34, 64, 99, 82 });
 		verifyHeap(new Integer[] { 1, 6, 58, 12, 34, 99, 64, 82 });
 	}
 
@@ -84,7 +84,7 @@ public class StudentMinHeapTest {
 
 	@Test 
 	public void testSort() {
-		assertArrayEquals(new Integer[] { 5, 6, 12, 20, 34, 43, 49, 92 },
+		assertArrayEquals(new Integer[] { 5, 6, 12, 20, 34, 43, 49, 92},
 				heap.heapsort(new Integer[] { 34, 92, 5, 12, 49, 20, 43, 6 }));
 
 		assertEquals(0, heap.size());
